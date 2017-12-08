@@ -21,7 +21,7 @@ import com.uchicom.tm.runnable.DesktopNotifyRunnable;
  */
 public class NotifyFrame extends JFrame {
 	/** 通知までの時間 */
-	private long sleep = 10 * 1000;//30 * 60 * 1000;
+	private long sleep = 30 * 60 * 1000;
 
 	/** 通知非同期処理 */
 	private DesktopNotifyRunnable desktopNotifyRunnable = new DesktopNotifyRunnable(this, sleep);
